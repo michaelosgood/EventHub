@@ -8,7 +8,7 @@ function dayAndNight(){
 
     if (day_night > 6 && day_night < 19){
       //Day
-      document.body.style.backgroundImage = "url('assets/images/baseball.png')";
+      document.body.style.backgroundImage = "url('assets/images/concert.png')";
     }
     else{
       //Night
