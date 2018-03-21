@@ -1,21 +1,24 @@
 // ====== BackGround Change Using day light saving
-function dayAndNight(){
 
-  var current = new Date();
-  var day_night = current.getHours();
-  // console.log(current);
-  // console.log(day_night);
+// function dayAndNight(){
 
-    if (day_night > 6 && day_night < 19){
-      //Day
-      document.body.style.backgroundImage = "url('assets/images/concert.png')";
-    }
-    else{
-      //Night
-        document.body.style.backgroundImage = "url('assets/images/concert.png')";
-    }
-}
-dayAndNight();//======background change end code
+//   var current = new Date();
+//   var day_night = current.getHours();
+//   // console.log(current);
+//   // console.log(day_night);
+
+//     if (day_night > 6 && day_night < 19){
+//       //Day
+//       document.body.style.backgroundImage = "url('assets/images/concert.png')";
+//     }
+//     else{
+//       //Night
+//         document.body.style.backgroundImage = "url('assets/images/concert.png')";
+//     }
+// }
+// dayAndNight();
+
+//======background change end code
 
 //WEATHER API ADDED
 var APIKey = "5e68d3fec5ccfb64ad77db9dcbc833c7";
